@@ -5,6 +5,8 @@ VisualStudioVersion = 17.9.34321.82
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ICS.API", "ICS.API\ICS.API.csproj", "{9D7B5E9B-62E4-497B-893F-868F88B9D40B}"
 EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "ICS.Database", "ICS.Database\ICS.Database.sqlproj", "{AADE7E2B-4365-469B-BED2-85F65D319DD6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,12 @@ Global
 		{9D7B5E9B-62E4-497B-893F-868F88B9D40B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9D7B5E9B-62E4-497B-893F-868F88B9D40B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9D7B5E9B-62E4-497B-893F-868F88B9D40B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AADE7E2B-4365-469B-BED2-85F65D319DD6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AADE7E2B-4365-469B-BED2-85F65D319DD6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AADE7E2B-4365-469B-BED2-85F65D319DD6}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{AADE7E2B-4365-469B-BED2-85F65D319DD6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AADE7E2B-4365-469B-BED2-85F65D319DD6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AADE7E2B-4365-469B-BED2-85F65D319DD6}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
