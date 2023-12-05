@@ -1,0 +1,11 @@
+﻿namespace ICS.DataAccess.DbAccess;
+
+public interface ISqlDataAccess
+{
+    Task<IEnumerable<T>> LoadData<T, TU>(
+        string storedProcedure,
+        TU parameters,
+        string connectionId = "Default");
+
+    Task SaveData<T>(string storedProcedure, T parameters, string connectionId = "Default");
+}
